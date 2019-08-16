@@ -1,0 +1,169 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '../src/navbar.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+
+.logo-image{
+    height: 80px;
+    width: 175px;
+} 
+
+
+.active{
+    background-color:#c0392b;
+    color:#fff;
+}
+.titleDiv{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #990000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.headerDiv{
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: #000;
+
+}
+.contentDiv{
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    /*background-color: #000;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+.footerDiv{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    font-family: sans-serif;
+    background-color: #990000;
+}
+
+@media(max-width:575px){
+
+}
+    
+@media(min-width:576px){
+
+}
+    
+@media(min-width:768px){
+    
+}
+@media(min-width:992px){
+    
+}
+@media(min-width:1200px){
+    
+}
+
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.email-input{
+    width: 100%;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-indent: 5px;
+    color: #000;
+    
+}
+
+#emailForm textarea{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-indent: 5px;
+    color: #000;
+    
+}
+
+.contact-button{
+    background-color: #990000;
+    color: #fff3e6;
+    font-weight: bolder;
+    width: 125px;
+    height: 50px;
+}
+
+
+#sendButton{
+    font-size: 20px;
+    width: 125px;
+    color: #fff;
+}
+
+#sendButton:hover{
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.contactText{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    text-indent: 5px;
+    color: #000;
+    border: 1px #000;
+    border-style: solid;
+    width:400px;
+}
+
+/*style for our other page*/
+.accordian-header{
+    border-radius: 5px;
+    background-color: #000000;
+    /*color: #ffd633;*/
+    padding: 10px;
+    /* font-style: italic; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.accordian-time{
+    /*border-radius: 5px;*/
+    background-color: #990000;
+    color: #ffffff;
+    width: 180px;
+    padding: 10px;
+    float: right;
+    /* font-style: italic; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page-title-background{
+    /*background-color: #fff3e6;*/
+    background-color: #FFFFE7;
+    color: #990000;
+
+}
+
+.past-images{
+    width: 500px;
+    height: 300px;
+    border: 1px solid darkgray;
+    /*border-radius: 15px;*/
+    /*box-shadow: 3px 3px 3px darkgray;*/
+}

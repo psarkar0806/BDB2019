@@ -1,0 +1,42 @@
+<!--The content below is only a placeholder and can be replaced.-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+
+            <a class="navbar-brand js-scroll-trigger"href="#top"><img src="assets/logo.jpg" class="logo-image"/></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link js-scroll-trigger header-nav" [routerLink]="['/home']">Home</a></li>
+                    <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link js-scroll-trigger header-nav" [routerLink]="['/prev']">About Us</a></li>
+                   <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger header-nav" style="color: wheat; background-color: brown; border-radius: 5px" [routerLink]="['/donate']">Donate</a></li>-->
+                    <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link js-scroll-trigger header-nav" style="color: #000; border-radius: 5px" [routerLink]="['/donate']">Donate</a></li>
+                    <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link js-scroll-trigger header-nav" [routerLink]="['/faq']">FAQ</a></li>
+                    <li class="nav-item" [routerLinkActive]="['active']"><a class="nav-link js-scroll-trigger header-nav" [routerLink]="['/contact']">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+ 
+    <div class="container" >
+      <div class="titleDiv">
+          <h1 class="text-center my-1">DURGOTSAV 2019</h1></div>
+    </div>
+      
+   <!-- <div  style="background-color: #FFFFE7; margin: 10px;"></div>-->
+    
+<div>
+  <router-outlet></router-outlet>
+</div>
+<footer class="container">
+  <div class="footerDiv text-center">
+      
+      <!--<h4><b>CONNECT WITH US</b></h4>-->
+      
+      <div>
+          <a title="email us" href="mailto:durgabari.boston@gmail.com?Subject=Boston%20Durgabari%20Information%20Request"><img alt="email us" src="assets/email.png" border=0></a>
+          <a target="_blank" title="Find us on facebook" href="https://www.facebook.com/events/1788508004769585/?ti=icl"><img alt="follow me on facebook" src="assets/facebook.png" border=0></a>
+          <div>&nbsp;</div>
+          <p><b>Powered by Durgabari Inc - A non-profit organization</b></p>
+      </div>
+  </div>
+</footer> 
